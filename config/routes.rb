@@ -1,4 +1,10 @@
 Peopleandstuff::Application.routes.draw do
+  
+  
+  
+  match '/about', :to => 'pages#about'
+  
+  root :to => 'pages#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
